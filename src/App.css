@@ -31,53 +31,67 @@
   color: white;
 }
 
-.cards {
-  min-width: 338px;
+.card {
+  min-width: 320px;
   background-color: #363636;
-  border-radius: 10px;
+  border-radius: 10px 10px 5px 5px;
   padding: 30px 16px 24px 16px;
-  margin: 10px;
+  margin: 12px;
 }
-.cards h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-.cards img {
-  margin-top: 20px;
-  max-height: 106px;
-}
-.cards .date {
+.card .date {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 9px;
 }
-.cards .type {
+.card img {
+  margin-top: 16px;
+  max-height: 106px;
+}
+.card h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+.card .type {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 3px;
-  padding: 0;
+  margin-top: -12px;
+  margin-bottom: 22px;
+  /* outline: 1px solid lime; */
 }
-.cards .p-online {
+.card .method {
   font-size: 36px;
   font-weight: bold;
-  margin-right: 9px;
   margin-top: 4px;
+  margin-right: 7px;
+}
+.card .p-online {
   color: #EA580C;
 }
-.cards .p-in-person {
-  font-size: 36px;
-  font-weight: bold;
-  margin-right: 5px;
-  margin-top: 3px;
+.card .p-in-person {
   color: #DC2626;
 }
-.cards .plataform {
+.card .plataform {
   font-size: 18px;
   font-weight: bold;
   background-color: #1C1917;
   margin-left: 3px;
   padding: 6px 12px 1px 12px;
   border-radius: 14px;
+}
+.card .method-line {
+  margin-bottom: -24px;
+  margin-left: -16px;
+  margin-right: -16px;
+  height: 5px;
+  border-radius: 0 0 10px 10px;
+}
+.card .l-online {
+  background-color: #EA580C;
+}
+.card .l-in-person {
+  background-color: #DC2626;
 }

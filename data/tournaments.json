@@ -1,0 +1,18 @@
+[
+  {
+    "name": "predator league",
+    "img": "predator",
+    "date": "19 de marzo",
+    "method": "online",
+    "plataform1": "pc",
+    "plataform2": "playstation"
+  },
+  {
+    "name": "big game",
+    "img": "big-game",
+    "date": "02 de abril",
+    "method": "presencial",
+    "plataform1": "pc",
+    "plataform2": ""
+  }
+]
