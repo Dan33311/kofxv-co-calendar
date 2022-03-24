@@ -18,17 +18,36 @@
 
 .navbar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 60px;
-  background-color: rgba(255, 255, 255, 0.089);
+  margin-top: 120px;
+  padding-bottom: 20px;
+  /* padding: 0px 60px; */
 }
+
 .navbar img {
-  height: 74px;
+  margin-top: 20px;
+  height: 100px;
 }
 .navbar h1 {
   color: white;
+}
+.navbar p:nth-child(2) {
+  margin-top: 9px;
+}
+
+.header {
+  min-width: 320px;
+}
+.header img {
+  height: 136px;
+  margin-top: 40px;
+}
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .card {
